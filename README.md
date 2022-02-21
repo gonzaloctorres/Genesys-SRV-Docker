@@ -20,11 +20,13 @@ https://docs.docker.com/desktop/windows/install/
 2 - Apos isso, temos duas alternativas você baixar esta pasta completa.
 	a) Clica no botão verde do lado superior direito e faz o **download ZIP**
 	b) baixa a pasta inteira usando o git
+		Instala o git:
 		https://git-scm.com/download/win
 		
-
-3 - Com os arquivos
-
+		Baixa pelo terminal a pasta completa com o comando:
+		`git clone https://github.com/gonzaloctorres/Genesys-SRV-Docker.git --depth=100 --recursive`
+		
+3 - Com os arquivos baixados, acessa o terminal e passa pra etapa de **Instalação**
 
 
 O arquivo `.env` possui as configurações gerais que serão usadas na instalação do ambiente.
