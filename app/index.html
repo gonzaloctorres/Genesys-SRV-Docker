@@ -1,0 +1,41 @@
+<html>
+   <head>
+      <title>SRV para desenvolvedores</title>
+   </head>
+   <body>
+      <h1>Servidor Docker para desenvolvedores</h1>
+	  <p><font size=3 face=Verdana>Se voc&ecirc; chegou at&eacute; aqui <b><i>PARAB&Eacute;NS</i></b>, seu servidor est&aacute; funcionando com o <b>apache</b> e o <b>php</b> e est&aacute; pronto para que voc&ecirc; consiga trabalhar no desenvolvimento de seus projetos.</font></p>
+	  
+	  <p><font size=3 face=Verdana>A configura&ccedil;&atilde;o que voc&ecirc; encontrar&aacute; aqui ser&aacute; a seguinte:</font></p>
+	  
+	  <img src="images/pastas.png">
+	  
+	  <p><font size=3 face=Verdana>Para o <b>apache</b> voc&ecirc; tem:</font></p>
+	  
+	  <font size=3 face=Verdana>
+	  <ul>
+	     <li>Um arquivo chamado <i><b>ambientes.conf</b></i> que &eacute; onde voc&ecirc; poder&aacute; configurar os <i><b>virtualhosts</b></i> para o apache reconhecer, ele est&aacute; mapeado para o <i><b>conf.d</b></i> e todas as altera&ccedil;&atilde;s feitas nele o docker reconhecer&aacute;.</li>
+		 <li>A pasta <i><b>logs</b></i> &eacute; um mapeamento da pasta <i><b>/var/log/apache2</b></i> do Docker, ou seja, nela voc&ecirc; ter&aacute; todos os arquivos de log do apache.</li>
+	  </ul>
+	  </font>
+	  
+	  <p><font size=3 face=Verdana>Para o <b>php</b> voc&ecirc; tem:</font></p>
+	  
+	  <font size=3 face=Verdana>
+	  <ul>
+	     <li>Assim como no apache o php tem um arquivo na pasta conf chamado <i><b>ambiente.ini</b></i>, que tem o papel de ser lido como a configura&ccedil;&atilde;o do <i><b>php.ini</b></i> do Docker.</li>
+      </ul>
+	  </font>
+	  
+	  <table border=0 bgcolor=#BDB76B><tr>
+	  <td><p><font size=3 face=Verdana>O sistema todo tem uma pasta chamada <b><i>APP</i></b>, vista na imagem acima, e nela voc&ecirc; pode colocar todo o seu c&oacute;digo, que ele j&aacute; reconhece o php para ser acessado no seu navegador.</font></p></td>
+	  </tr><table>
+	  
+	  <p><font size=3 face=Verdana>Visualize a configura&ccedil;&atilde;o do PHP (phpinfo) <a href="http://localhost/phpinfo.php"><b>CLIQUE AQUI</b></a></font></p>
+	  
+	  <h2>Boa Sorte e Bom uso.</h2>
+	  <p>&nbsp;<p>&nbsp;<p>&nbsp;
+   </body>
+</html>
+
+
