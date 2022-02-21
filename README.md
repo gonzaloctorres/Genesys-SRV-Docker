@@ -24,6 +24,7 @@ https://docs.docker.com/desktop/windows/install/
 		https://git-scm.com/download/win
 		
 		Baixa pelo terminal a pasta completa com o comando:
+		
 		`git clone https://github.com/gonzaloctorres/Genesys-SRV-Docker.git --depth=100 --recursive`
 		
 3 - Com os arquivos baixados, acessa o terminal e passa pra etapa de **Instalação**
@@ -41,7 +42,8 @@ Com os arquivos descompactados, basta estar na pasta baixada (do git ou do zip) 
 Para instalar todos os containers basta fazer `docker-compose up -d --build` nesta pasta raiz.
 
 Instalar:
-docker-compose up -d --build
+
+`docker-compose up -d --build`
 
 
 ## Utilizando o Docker
