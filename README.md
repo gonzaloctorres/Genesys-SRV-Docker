@@ -18,6 +18,7 @@ https://docs.docker.com/desktop/
 https://docs.docker.com/desktop/windows/install/
 
 2 - Apos isso, temos duas alternativas você baixar esta pasta completa.
+
 	a) Clica no botão verde do lado superior direito e faz o **download ZIP**
 	b) baixa a pasta inteira usando o git
 		Instala o git:
