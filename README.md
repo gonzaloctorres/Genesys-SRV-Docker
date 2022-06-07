@@ -7,8 +7,8 @@ https://docs.docker.com/desktop/
 
 
 ## Containers
-- apache
-- php-fpm (com xdebug)
+- apache 
+- php-fpm (com xdebug) 
 - nodejs
 
 
