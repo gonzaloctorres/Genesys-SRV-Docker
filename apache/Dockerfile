@@ -7,44 +7,46 @@ RUN apk update; \
 RUN apk add \
   bash \
   apache2 \
-  php7-apache2 \
+  php8-apache2 \
   curl \
   ca-certificates \
   openssl \
   git \
-  php7 \
-  php7-phar \
-  php7-json \
-  php7-iconv \
-  php7-openssl \
+  php8 \
+  php8-phar \
+  php8-json \
+  php8-iconv \
+  php8-openssl \
   tzdata \
   openntpd \
-  php7-ftp \
-  php7-xdebug \
-  php7-mcrypt \
-  php7-mbstring \
-  php7-soap \
-  php7-gmp \
-  php7-pdo_odbc \
-  php7-dom \
-  php7-pdo \
-  php7-zip \
-  php7-mysqli \
-  php7-bcmath \
-  php7-gd \
-  php7-odbc \
-  php7-pdo_mysql \
-  php7-gettext \
-  php7-xmlreader \
-  php7-xmlwriter \
-  php7-tokenizer \
-  php7-xmlrpc \
-  php7-bz2 \
-  php7-pdo_dblib \
-  php7-curl \
-  php7-ctype \
-  php7-session \
-  php7-exif \
+  php8-ftp \
+  php8-xdebug \
+  php8-pecl-mcrypt \
+  php8-mbstring \
+  php8-soap \
+  php8-gmp \
+  php8-pdo_odbc \
+  php8-dom \
+  php8-pdo \
+  php8-zip \
+  php8-bcmath \
+  php8-gd \
+  php8-odbc \
+  php8-pdo_mysql \
+  php8-gettext \
+  php8-xmlreader \
+  php8-xmlwriter \
+  php8-tokenizer \
+  php8-xml \
+  php8-bz2 \
+  php8-pdo_dblib \
+  php8-curl \
+  php8-ctype \
+  php8-session \
+  php8-exif \
+  php8-pear \
+  php8-dev \
+  gcc \
   nodejs;
 
 RUN sed -i "s/#LoadModule\ rewrite_module/LoadModule\ rewrite_module/" /usr/local/apache2/conf/httpd.conf;

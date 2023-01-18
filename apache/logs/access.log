@@ -1,0 +1,3 @@
+172.20.0.1 - - [13/Jun/2022:01:19:45 +0000] "GET / HTTP/1.1" 200 2187 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+172.20.0.1 - - [13/Jun/2022:01:19:45 +0000] "GET /images/pastas.png HTTP/1.1" 200 20666 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+172.20.0.1 - - [13/Jun/2022:01:19:45 +0000] "GET /favicon.ico HTTP/1.1" 404 196 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
